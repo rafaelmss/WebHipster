@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "musica" : {
+            "home": {
+                "title": "Musicas",
+                "createLabel": "Criar novo Musica",
+                "createOrEditLabel": "Criar ou editar Musica"
+            },
+            "created": "Um novo Musica foi criado com o identificador {{ param }}",
+            "updated": "Um Musica foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Musica foi deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Musica {{ id }}?"
+            },
+            "detail": {
+                "title": "Musica"
+            },
+            "nome": "Nome",
+            "lancamento": "Lancamento",
+            "artista": "Artista"
+        }
+    }
+}

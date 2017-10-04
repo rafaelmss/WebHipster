@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "musica" : {
+            "home": {
+                "title": "Musicas",
+                "createLabel": "Musica を追加",
+                "createOrEditLabel": "Musicaを追加または編集"
+            },
+            "created": "A new Musica is created with identifier {{ param }}",
+            "updated": "A Musica is updated with identifier {{ param }}",
+            "deleted": "A Musica is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Musica {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Musica"
+            },
+            "nome": "Nome",
+            "lancamento": "Lancamento",
+            "artista": "Artista"
+        }
+    }
+}

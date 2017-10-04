@@ -1,0 +1,60 @@
+<div>
+    <h2 data-translate="webHipsterApp.musica.home.title">Musicas</h2>
+    <jhi-alert></jhi-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 no-padding-left">
+                <button class="btn btn-primary" ui-sref="musica.new" >
+                    <span class="glyphicon glyphicon-plus"></span>
+                    <span  data-translate="webHipsterApp.musica.home.createLabel">
+                        Create new Musica
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr jh-sort="vm.predicate" ascending="vm.reverse" callback="vm.reset()">
+                    <th jh-sort-by="id"><span data-translate="global.field.id">ID</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="nome"><span data-translate="webHipsterApp.musica.nome">Nome</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="lancamento"><span data-translate="webHipsterApp.musica.lancamento">Lancamento</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="artista"><span data-translate="webHipsterApp.musica.artista">Artista</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody infinite-scroll="vm.loadPage(vm.page + 1)" infinite-scroll-disabled="vm.page >= vm.links['last']">
+                <tr ng-repeat="musica in vm.musicas track by musica.id">
+                    <td><a ui-sref="musica-detail({id:musica.id})">{{musica.id}}</a></td>
+                    <td>{{musica.nome}}</td>
+                        <td>{{musica.lancamento | date:'mediumDate'}}</td>
+                    <td>{{musica.artista}}</td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit"
+                                    ui-sref="musica-detail({id:musica.id})"
+                                    class="btn btn-info btn-sm">
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                                <span class="hidden-sm-down" data-translate="entity.action.view"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="musica.edit({id:musica.id})"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="hidden-sm-down" data-translate="entity.action.edit"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="musica.delete({id:musica.id})"
+                                    class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-sm-down" data-translate="entity.action.delete"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

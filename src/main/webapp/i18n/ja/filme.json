@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "filme" : {
+            "home": {
+                "title": "Filmes",
+                "createLabel": "Filme を追加",
+                "createOrEditLabel": "Filmeを追加または編集"
+            },
+            "created": "A new Filme is created with identifier {{ param }}",
+            "updated": "A Filme is updated with identifier {{ param }}",
+            "deleted": "A Filme is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Filme {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Filme"
+            },
+            "nome": "Nome",
+            "lancamento": "Lancamento",
+            "descricao": "Descricao"
+        }
+    }
+}

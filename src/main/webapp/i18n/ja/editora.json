@@ -1,0 +1,22 @@
+{
+    "webHipsterApp": {
+        "editora" : {
+            "home": {
+                "title": "Editoras",
+                "createLabel": "Editora を追加",
+                "createOrEditLabel": "Editoraを追加または編集"
+            },
+            "created": "A new Editora is created with identifier {{ param }}",
+            "updated": "A Editora is updated with identifier {{ param }}",
+            "deleted": "A Editora is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Editora {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Editora"
+            },
+            "nome": "Nome",
+            "endereco": "Endereco"
+        }
+    }
+}

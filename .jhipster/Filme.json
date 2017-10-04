@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "lancamento",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "descricao",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20171004012740",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "filme",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll"
+}

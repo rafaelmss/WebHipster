@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "musica" : {
+            "home": {
+                "title": "Musicas",
+                "createLabel": "Musica erstellen",
+                "createOrEditLabel": "Musica erstellen oder bearbeiten"
+            },
+            "created": "Musica erstellt mit ID {{ param }}",
+            "updated": "Musica aktualisiert mit ID {{ param }}",
+            "deleted": "Musica gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Musica {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Musica"
+            },
+            "nome": "Nome",
+            "lancamento": "Lancamento",
+            "artista": "Artista"
+        }
+    }
+}

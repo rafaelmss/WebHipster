@@ -1,0 +1,22 @@
+{
+    "webHipsterApp": {
+        "editora" : {
+            "home": {
+                "title": "Editoras",
+                "createLabel": "Crear nuevo Editora",
+                "createOrEditLabel": "Crear o editar Editora"
+            },
+            "created": "Un nuevo Editora ha sido creado con el identificador {{ param }}",
+            "updated": "Un Editora ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Editora ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Editora {{ id }}?"
+            },
+            "detail": {
+                "title": "Editora"
+            },
+            "nome": "Nome",
+            "endereco": "Endereco"
+        }
+    }
+}

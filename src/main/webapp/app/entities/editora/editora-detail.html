@@ -1,0 +1,27 @@
+
+<div>
+    <h2><span data-translate="webHipsterApp.editora.detail.title">Editora</span> {{vm.editora.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="webHipsterApp.editora.nome">Nome</span></dt>
+        <dd>
+            <span>{{vm.editora.nome}}</span>
+        </dd>
+        <dt><span data-translate="webHipsterApp.editora.endereco">Endereco</span></dt>
+        <dd>
+            <span>{{vm.editora.endereco}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="editora-detail.edit({id:vm.editora.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

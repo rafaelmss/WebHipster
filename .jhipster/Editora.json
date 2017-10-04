@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "endereco",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20171004012221",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "editora",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll"
+}

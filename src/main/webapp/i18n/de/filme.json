@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "filme" : {
+            "home": {
+                "title": "Filmes",
+                "createLabel": "Filme erstellen",
+                "createOrEditLabel": "Filme erstellen oder bearbeiten"
+            },
+            "created": "Filme erstellt mit ID {{ param }}",
+            "updated": "Filme aktualisiert mit ID {{ param }}",
+            "deleted": "Filme gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Filme {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Filme"
+            },
+            "nome": "Nome",
+            "lancamento": "Lancamento",
+            "descricao": "Descricao"
+        }
+    }
+}

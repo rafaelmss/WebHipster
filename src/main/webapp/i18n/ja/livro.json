@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "livro" : {
+            "home": {
+                "title": "Livros",
+                "createLabel": "Livro を追加",
+                "createOrEditLabel": "Livroを追加または編集"
+            },
+            "created": "A new Livro is created with identifier {{ param }}",
+            "updated": "A Livro is updated with identifier {{ param }}",
+            "deleted": "A Livro is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Livro {{ id }}を削除してもよろしいですか？"
+            },
+            "detail": {
+                "title": "Livro"
+            },
+            "nome": "Nome",
+            "autor": "Autor",
+            "publicacao": "Publicacao"
+        }
+    }
+}

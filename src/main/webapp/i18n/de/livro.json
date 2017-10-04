@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "livro" : {
+            "home": {
+                "title": "Livros",
+                "createLabel": "Livro erstellen",
+                "createOrEditLabel": "Livro erstellen oder bearbeiten"
+            },
+            "created": "Livro erstellt mit ID {{ param }}",
+            "updated": "Livro aktualisiert mit ID {{ param }}",
+            "deleted": "Livro gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Livro {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Livro"
+            },
+            "nome": "Nome",
+            "autor": "Autor",
+            "publicacao": "Publicacao"
+        }
+    }
+}

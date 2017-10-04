@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "filme" : {
+            "home": {
+                "title": "Filmes",
+                "createLabel": "Criar novo Filme",
+                "createOrEditLabel": "Criar ou editar Filme"
+            },
+            "created": "Um novo Filme foi criado com o identificador {{ param }}",
+            "updated": "Um Filme foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Filme foi deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Filme {{ id }}?"
+            },
+            "detail": {
+                "title": "Filme"
+            },
+            "nome": "Nome",
+            "lancamento": "Lancamento",
+            "descricao": "Descricao"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "webHipsterApp": {
+        "livro" : {
+            "home": {
+                "title": "Livros",
+                "createLabel": "Create a new Livro",
+                "createOrEditLabel": "Create or edit a Livro"
+            },
+            "created": "A new Livro is created with identifier {{ param }}",
+            "updated": "A Livro is updated with identifier {{ param }}",
+            "deleted": "A Livro is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Livro {{ id }}?"
+            },
+            "detail": {
+                "title": "Livro"
+            },
+            "nome": "Nome",
+            "autor": "Autor",
+            "publicacao": "Publicacao"
+        }
+    }
+}
